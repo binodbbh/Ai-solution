@@ -95,7 +95,7 @@ function About() {
               {
                 name: 'Yubraj Khatra Acharya',
                 role: 'Chief Executive Officer',
-                image: 'https://themenepal.com/wp-content/uploads/2023/08/yuvraj.jpg?auto=format&fit=crop&w=800&q=80'
+                image: 'https://themenepal.com/wp-content/uploads/2023/08/yuvraj.jpg'
               },
               {
                 name: 'Sushan Kera Bajracharya',
@@ -105,17 +105,15 @@ function About() {
               {
                 name: 'Nirajan Chapprri KC',
                 role: 'Head of AI Research',
-                image: 'https://themenepal.com/wp-content/uploads/2023/05/LX4A4614-rotated-e1685090204412.jpg?auto=format&fit=crop&w=800&q=80'
+                image: 'https://themenepal.com/wp-content/uploads/2023/05/LX4A4614-rotated-e1685090204412.jpg'
               }
             ].map((person) => (
               <div key={person.name} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="aspect-w-1 aspect-h-1">
-                  <img
-                    className="object-cover w-full h-full"
-                    src={person.image}
-                    alt={person.name}
-                  />
-                </div>
+                <img
+                  className="h-48 w-full object-cover"
+                  src={person.image}
+                  alt={person.name}
+                />
                 <div className="p-6">
                   <h3 className="text-lg font-medium text-gray-900">{person.name}</h3>
                   <p className="mt-1 text-sm text-gray-500">{person.role}</p>
