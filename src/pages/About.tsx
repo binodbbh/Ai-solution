@@ -93,19 +93,19 @@ function About() {
           <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                name: 'Sarah Johnson',
+                name: 'Yubraj Khatra Acharya',
                 role: 'Chief Executive Officer',
-                image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80'
+                image: 'https://themenepal.com/wp-content/uploads/2023/08/yuvraj.jpg'
               },
               {
-                name: 'Michael Chen',
+                name: 'Sushan Kera Bajracharya',
                 role: 'Chief Technology Officer',
-                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80'
+                image: 'https://themenepal.com/wp-content/uploads/2023/05/IMG_20230522_215134-e1685088731928.jpg?auto=format&fit=crop&w=800&q=80'
               },
               {
-                name: 'Emily Williams',
+                name: 'Nirajan Chapprri KC',
                 role: 'Head of AI Research',
-                image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=80'
+                image: 'https://themenepal.com/wp-content/uploads/2023/05/LX4A4614-rotated-e1685090204412.jpg'
               }
             ].map((person) => (
               <div key={person.name} className="bg-white rounded-lg shadow-lg overflow-hidden">
